@@ -43,10 +43,10 @@ public static void main(String[] args){
  	comparingBookToDictionary();
 
  	double avgCompsfound = (double)(Compsfound / Wdfound);
- 	System.out.println("The average is:" + avgCompsfound);
+ 	System.out.println("The average of Compsfound and Wdfound:" + avgCompsfound);
 
  	double avgNotFound =(double) (Compsnotfound / Wdnotfound);
- 	System.out.println("The average of Compsnotfound and Wdnotfound is" + avgNotFound);
+ 	System.out.println("The average of Compsnotfound and Wdnotfound is " + avgNotFound);
 
 
 }// main
@@ -169,3 +169,12 @@ public static void comparingBookToDictionary(){
 
 
 }//class
+
+
+/*se-sscs-lf105b1:C202-PA4-master leadpage$ java Program4
+...
+The file was read Successfully
+The average of Compsfound and Wdfound:3554.0
+The average of Compsnotfound and Wdnotfound is 7426.0
+
+*/
